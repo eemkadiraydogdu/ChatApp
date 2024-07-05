@@ -1,4 +1,5 @@
 using ChatApp.Data;
+using ChatApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<ChatAppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+//Repositories add to service
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.RegisterRepositories();
+builder.Services.RegisterServices();
 
 var app = builder.Build();
 
