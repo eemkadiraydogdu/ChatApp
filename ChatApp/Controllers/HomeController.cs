@@ -6,10 +6,10 @@ namespace ChatApp;
 [ApiController]
 public class HomeController : Controller
 {
-    [HttpGet]
+    /* [HttpGet]
     public string Get()
     {
         return "Hello World";
-    }
+    } */
 
 }

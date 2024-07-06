@@ -59,6 +59,27 @@
           }
         }
       },
+      "Mapster/7.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Mapster.Core": "1.2.1"
+        },
+        "compile": {
+          "lib/net7.0/Mapster.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mapster.dll": {}
+        }
+      },
+      "Mapster.Core/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Mapster.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mapster.Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.5": {
         "type": "package",
         "dependencies": {
@@ -1615,7 +1636,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "ChatApp.Data": "1.0.0"
+          "ChatApp.Data": "1.0.0",
+          "Mapster": "7.4.0",
+          "Mapster.Core": "1.2.1"
         },
         "compile": {
           "bin/placeholder/ChatApp.Services.dll": {}
@@ -1685,6 +1708,34 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Mapster/7.4.0": {
+      "sha512": "RYGoDqvS4WTKIq0HDyPBBVIj6N0mluOCXQ1Vk95JKseMHEsbCXSEGKSlP95oL+s42IXAXbqvHj7p0YaRBUcfqg==",
+      "type": "package",
+      "path": "mapster/7.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Mapster.dll",
+        "lib/net7.0/Mapster.dll",
+        "mapster.7.4.0.nupkg.sha512",
+        "mapster.nuspec"
+      ]
+    },
+    "Mapster.Core/1.2.1": {
+      "sha512": "11lokmfliBEMMmjeqxFGNpqGXq6tN96zFqpBmfYeahr4Ybk63oDmeJmOflsATjobYkX248g5Y62oQ2NNnZaeww==",
+      "type": "package",
+      "path": "mapster.core/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Mapster.Core.dll",
+        "lib/net7.0/Mapster.Core.dll",
+        "mapster.core.1.2.1.nupkg.sha512",
+        "mapster.core.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/8.0.5": {
@@ -4558,11 +4609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
+      "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
       "projectName": "ChatApp",
-      "projectPath": "D:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
+      "projectPath": "d:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
       "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-      "outputPath": "D:\\Projeler\\ChatApp\\ChatApp\\obj\\",
+      "outputPath": "d:\\Projeler\\ChatApp\\ChatApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4580,8 +4631,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {
-              "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj"
+            "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {
+              "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj"
             }
           }
         }

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "o3GI3+ibpX8=",
+  "dgSpecHash": "fIj2L2zaa8M=",
   "success": true,
-  "projectFilePath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+  "projectFilePath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\00003688\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\00003688\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\00003688\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\00003688\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\00003688\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\00003688\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\00003688\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

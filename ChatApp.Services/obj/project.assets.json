@@ -46,6 +46,27 @@
           }
         }
       },
+      "Mapster/7.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Mapster.Core": "1.2.1"
+        },
+        "compile": {
+          "lib/net7.0/Mapster.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mapster.dll": {}
+        }
+      },
+      "Mapster.Core/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Mapster.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mapster.Core.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1044,6 +1065,34 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Mapster/7.4.0": {
+      "sha512": "RYGoDqvS4WTKIq0HDyPBBVIj6N0mluOCXQ1Vk95JKseMHEsbCXSEGKSlP95oL+s42IXAXbqvHj7p0YaRBUcfqg==",
+      "type": "package",
+      "path": "mapster/7.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Mapster.dll",
+        "lib/net7.0/Mapster.dll",
+        "mapster.7.4.0.nupkg.sha512",
+        "mapster.nuspec"
+      ]
+    },
+    "Mapster.Core/1.2.1": {
+      "sha512": "11lokmfliBEMMmjeqxFGNpqGXq6tN96zFqpBmfYeahr4Ybk63oDmeJmOflsATjobYkX248g5Y62oQ2NNnZaeww==",
+      "type": "package",
+      "path": "mapster.core/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Mapster.Core.dll",
+        "lib/net7.0/Mapster.Core.dll",
+        "mapster.core.1.2.1.nupkg.sha512",
+        "mapster.core.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2763,7 +2812,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "ChatApp.Data >= 1.0.0"
+      "ChatApp.Data >= 1.0.0",
+      "Mapster >= 7.4.0",
+      "Mapster.Core >= 1.2.1"
     ]
   },
   "packageFolders": {
@@ -2772,11 +2823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+      "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
       "projectName": "ChatApp.Services",
-      "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+      "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
       "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-      "outputPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\obj\\",
+      "outputPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2794,8 +2845,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
-              "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj"
+            "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
+              "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj"
             }
           }
         }
@@ -2814,6 +2865,16 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Mapster": {
+            "target": "Package",
+            "version": "[7.4.0, )"
+          },
+          "Mapster.Core": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

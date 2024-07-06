@@ -139,3 +139,6 @@ D:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspace
 D:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\Projeler\ChatApp\ChatApp\obj\Debug\net8.0\ChatApp.sourcelink.json
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Mapster.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Mapster.Core.dll

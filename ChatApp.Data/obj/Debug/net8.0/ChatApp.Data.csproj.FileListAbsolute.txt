@@ -12,3 +12,4 @@ D:\Projeler\ChatApp\ChatApp.Data\obj\Debug\net8.0\refint\ChatApp.Data.dll
 D:\Projeler\ChatApp\ChatApp.Data\obj\Debug\net8.0\ChatApp.Data.pdb
 D:\Projeler\ChatApp\ChatApp.Data\obj\Debug\net8.0\ChatApp.Data.genruntimeconfig.cache
 D:\Projeler\ChatApp\ChatApp.Data\obj\Debug\net8.0\ref\ChatApp.Data.dll
+d:\Projeler\ChatApp\ChatApp.Data\obj\Debug\net8.0\ChatApp.Data.sourcelink.json

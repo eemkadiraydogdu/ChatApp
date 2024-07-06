@@ -13,10 +13,15 @@ builder.Services.AddDbContext<ChatAppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+//Mapster
+builder.Services.RegisterMapsterConfiguration();
+
 //Repositories add to service
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
+
+
 
 var app = builder.Build();
 
