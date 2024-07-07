@@ -1,12 +1,14 @@
 ﻿using ChatApp.Data;
 using ChatApp.Services;
 using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatApp;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class UserController : Controller
 {
     private readonly IUserService _userService;

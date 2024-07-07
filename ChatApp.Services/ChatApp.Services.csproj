@@ -5,13 +5,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Group\" />
-    <Folder Include="Models\Message\" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.Core" Version="1.2.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Mapster" Version="7.4.0" />
-    <PackageReference Include="Mapster.Core" Version="1.2.1" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
 
   <PropertyGroup>
