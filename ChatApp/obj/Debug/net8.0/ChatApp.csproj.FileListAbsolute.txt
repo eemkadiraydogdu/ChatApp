@@ -143,3 +143,14 @@ d:\Projeler\ChatApp\ChatApp\obj\Debug\net8.0\ChatApp.pdb
 d:\Projeler\ChatApp\ChatApp\obj\Debug\net8.0\ChatApp.genruntimeconfig.cache
 d:\Projeler\ChatApp\ChatApp\obj\Debug\net8.0\ref\ChatApp.dll
 d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+d:\Projeler\ChatApp\ChatApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

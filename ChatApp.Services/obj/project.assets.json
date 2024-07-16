@@ -2823,11 +2823,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+      "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
       "projectName": "ChatApp.Services",
-      "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+      "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
       "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-      "outputPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\obj\\",
+      "outputPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2845,8 +2845,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
-              "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj"
+            "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
+              "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj"
             }
           }
         }
@@ -2891,7 +2891,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

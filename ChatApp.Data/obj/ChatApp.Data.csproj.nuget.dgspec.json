@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {}
+    "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {}
   },
   "projects": {
-    "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
+    "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
+        "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
         "projectName": "ChatApp.Data",
-        "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
+        "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
         "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-        "outputPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\obj\\",
+        "outputPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

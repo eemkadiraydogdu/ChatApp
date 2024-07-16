@@ -1,4 +1,5 @@
 using System.Text;
+using ChatApp;
 using ChatApp.Data;
 using ChatApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -37,6 +38,9 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.Services.AddControllers();
+
+builder.Services.AddSignalR();
+
 builder.Services.AddDbContext<ChatAppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
@@ -48,6 +52,15 @@ builder.Services.RegisterMapsterConfiguration();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
+builder.Services.AddSingleton<ISignalrConnection, SignalrConnection>();
+
+//Cors
+var corsPolicyName = "CorsPolicy";
+builder.Services.AddCors(options =>{
+    options.AddPolicy(corsPolicyName, builder =>{
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+    });
+});
 
 //Authorization
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => {
@@ -63,6 +76,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 var app = builder.Build();
+app.UseCors(corsPolicyName);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -71,9 +85,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+//app.MapDefaultControllerRoute();
+app.UseRouting();
 
-app.MapDefaultControllerRoute();
+app.UseEndpoints(endpoints => {
+    endpoints.MapControllers();
+    endpoints.MapHub<ChatHub>("/chathub");
+});
 
 app.Run();
 
