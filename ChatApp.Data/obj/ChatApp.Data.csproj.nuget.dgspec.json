@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {}
+    "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {}
   },
   "projects": {
-    "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
+    "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
+        "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
         "projectName": "ChatApp.Data",
-        "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
+        "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
         "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\obj\\",
+        "outputPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",

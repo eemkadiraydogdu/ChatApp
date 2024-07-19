@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {}
+    "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {}
   },
   "projects": {
-    "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
+    "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
+        "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
         "projectName": "ChatApp.Data",
-        "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
+        "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj",
         "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\obj\\",
+        "outputPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {
+    "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+        "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
         "projectName": "ChatApp.Services",
-        "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
+        "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj",
         "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\obj\\",
+        "outputPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
-                "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj"
+              "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj": {
+                "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Data\\ChatApp.Data.csproj"
               }
             }
           }

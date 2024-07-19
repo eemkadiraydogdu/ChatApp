@@ -1,5 +1,7 @@
-﻿using ChatApp.Services;
+﻿using ChatApp.Data;
+using ChatApp.Services;
 using ChatApp.Services.Helpers;
+using Mapster;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatApp;
@@ -45,6 +47,19 @@ public class AuthController : Controller
             Message = "Login successful",
             Data = token,
             StatusCode = 200
+        };
+    }
+
+    [HttpPost("register")]
+    public async Task<ReturnModel> Register([FromBody] UserCreateModel userCreateModel)
+    {
+        var newUser = userCreateModel.Adapt<User>();
+        var addedUser = await _userService.AddAsync(newUser);
+        return new ReturnModel{
+            Success = true,
+            Message = "User Created Succefully",
+            Data = addedUser,
+            StatusCode = 201
         };
     }
 }
