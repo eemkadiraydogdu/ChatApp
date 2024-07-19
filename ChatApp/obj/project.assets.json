@@ -4631,11 +4631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
+      "projectUniqueName": "D:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
       "projectName": "ChatApp",
-      "projectPath": "d:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
+      "projectPath": "D:\\Projeler\\ChatApp\\ChatApp\\ChatApp.csproj",
       "packagesPath": "C:\\Users\\00003688\\.nuget\\packages\\",
-      "outputPath": "d:\\Projeler\\ChatApp\\ChatApp\\obj\\",
+      "outputPath": "D:\\Projeler\\ChatApp\\ChatApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\00003688\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4653,8 +4653,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {
-              "projectPath": "d:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj"
+            "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj": {
+              "projectPath": "D:\\Projeler\\ChatApp\\ChatApp.Services\\ChatApp.Services.csproj"
             }
           }
         }
