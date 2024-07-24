@@ -39,7 +39,9 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddControllers();
 
-builder.Services.AddSignalR();
+builder.Services.AddSignalR(options=>{
+    options.EnableDetailedErrors = true;
+});
 
 builder.Services.AddDbContext<ChatAppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -53,6 +55,7 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
 builder.Services.AddSingleton<ISignalrConnection, SignalrConnection>();
+builder.Services.AddSingleton<IDictionary<string, string>>(options=> new Dictionary<string, string>());
 
 //Cors
 var corsPolicyName = "CorsPolicy";
@@ -88,7 +91,7 @@ if (app.Environment.IsDevelopment())
 //app.UseHttpsRedirection();
 //app.MapDefaultControllerRoute();
 app.UseRouting();
-
+app.UseAuthorization();
 app.UseEndpoints(endpoints => {
     endpoints.MapControllers();
     endpoints.MapHub<ChatHub>("/chathub");

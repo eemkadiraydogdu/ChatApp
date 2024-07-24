@@ -36,7 +36,10 @@ public class UserRepository : IUserRepository
     {
         return await _context.Users.FirstOrDefaultAsync(x => x.UserName == username && x.Password == password);
     }
-
+    public async Task<List<User>> GetUsersByNameAsync(string name)
+    {
+        return await _context.Users.Where(x => x.FullName.Contains(name)).Take(10).ToListAsync();
+    }
     public async Task<IReadOnlyList<User>> ListAllAsync(PaginationModel paginationModel)
     {
         return await _genericRepository.ListAllAsync(paginationModel);

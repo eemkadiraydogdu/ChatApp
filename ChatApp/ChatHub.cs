@@ -1,11 +1,29 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.SignalR;
 
 namespace ChatApp;
-
+[Authorize]
 public class ChatHub :Hub
 {
+    private readonly IDictionary<string, string> _connectedUsers;
+
+    public ChatHub(IDictionary<string, string> connectedUsers)
+    {
+        _connectedUsers = connectedUsers;
+    }
+
     public override async Task OnConnectedAsync()
     {
+        HttpContext context = Context.GetHttpContext();
+        var token = context.Request.Headers["Authorization"];
+        var user = Context.User.Identity.Name;
+        if(!_connectedUsers.ContainsKey(user)){
+            _connectedUsers.TryAdd(user, Context.ConnectionId);
+        }
+        else{
+            _connectedUsers[user] = Context.ConnectionId;
+        }
+
         await Clients.Caller.SendAsync("UserConnected",Context.ConnectionId);
     }
 
